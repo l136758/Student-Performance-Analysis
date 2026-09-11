@@ -78,19 +78,23 @@ An Actual vs. Predicted plot was also used to visually evaluate the model's pred
 
 ## Data Visualization
 
-Three main visualizations were created to explore the data:
-
 ### Performance Index vs Previous Scores
 
-A scatter plot with a regression line showed a strong positive linear relationship between Previous Scores and Performance Index.
+The scatter plot shows a strong positive relationship between Previous Scores and Performance Index.
 
-### Performance Index by Extracurricular Activities
-
-A box plot compared students who participated in extracurricular activities with those who did not. The distributions and median performance were very similar between the two groups.
+![Performance Index vs Previous Scores](images/previous_scores_vs_performance.png)
 
 ### Performance Index by Hours Studied
 
-A bar plot showed a clear upward trend in average Performance Index as study hours increased from 1 to 9 hours.
+The bar chart shows that the average Performance Index generally increases as the number of Hours Studied increases.
+
+![Performance Index by Hours Studied](images/hours_studied_vs_performance.png)
+
+### Actual vs Predicted Performance Index
+
+This plot compares the actual Performance Index values with the values predicted by the linear regression model.
+
+![Actual vs Predicted Performance Index](images/actual_vs_predicted.png)
 
 ## Key Findings
 
